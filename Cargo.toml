@@ -1,0 +1,11 @@
+[package]
+name = "o_069"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+#libc = "0.2.189"
+
+[lib]
+name = "add_c_from_rust"
+crate-type = ["cdylib"]
